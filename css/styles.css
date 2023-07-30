@@ -33,24 +33,39 @@ header h1 {
 
 /* Style each section */
 .section {
-  background-color: #f9f9f9;
+  background-color: gray;
   border: 1px solid black;
   padding: 20px;
-  margin: 20px;
-  margin-right: auto;
+  margin-bottom: 10px;
   position: relative;
   display: inline-block;
+  float: left;
 
+}
+section:hover{
+  background-color: maroon;
 }
 
 /* Style section title region */
 .section-title {
   position: absolute;
+  border: 1px solid black;
   top: 0;
   right: 0;
-  color: white; 
+  color: black; 
   padding: 5px 10px;
   font-size: 125%; 
+  border-radius: 10px;
+
+}
+.section-price {
+  background-color: purple;
+  padding: 5px 10px;
+  /* margin: 5; */
+  bottom: 0;
+  position: absolute;
+  width: 25px;
+  border-radius: 10px;
 }
 
 #chi{
@@ -71,16 +86,16 @@ background-color: #ff9999;
 }
 
 /*Deskop/tablet/phone view rules*/
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .section {
-    width: 30%; 
+    width: 33%; 
   }
 }
 
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 850px) and (max-width: 1199px) {
   #beef , #chicken {
-width: 45%;
+width: 50%;
   }
   #sushi {
     width: 100%; 
@@ -88,7 +103,7 @@ width: 45%;
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 849px) {
   .section {
     width: 100%;
   }
