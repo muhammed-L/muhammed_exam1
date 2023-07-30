@@ -11,7 +11,6 @@ header,
 
 /* Set font family and default font size for the page */
 body {
-  font-family: Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -35,7 +34,7 @@ header h1 {
 .section {
   background-color: gray;
   border: 1px solid black;
-  padding: 20px;
+  padding: 5px 20px 20px 20px;
   margin-bottom: 10px;
   position: relative;
   display: inline-block;
@@ -48,24 +47,29 @@ section:hover{
 
 /* Style section title region */
 .section-title {
+  font-family: Arial;
   position: absolute;
   border: 1px solid black;
   top: 0;
   right: 0;
   color: black; 
-  padding: 5px 10px;
+  padding: 1px 5px;
   font-size: 125%; 
-  border-radius: 10px;
+  border-radius: 15px;
+  width: 150px;
+  text-align: center;
 
 }
 .section-price {
   background-color: purple;
-  padding: 5px 10px;
-  /* margin: 5; */
+  padding: 2px 15px 2px 2px;
   bottom: 0;
+  left: 0;
+  margin-left: 5px;
   position: absolute;
-  width: 25px;
-  border-radius: 10px;
+  width: 30px;
+  border-radius: 7px;
+  color: blue;
 }
 
 #chi{
@@ -81,7 +85,8 @@ background-color: #ff9999;
 
 /* Style the dummy text */
 .dummy-text {
-  margin-top: 30px;
+  /* margin-top: 5px; */
+  margin-bottom: 40px;
   font-size: 16px;
 }
 
